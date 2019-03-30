@@ -10,7 +10,7 @@ A small Go package for parsing larger duration units.
 go get -u go.coder.com/bigdur
 ```
 
-## Basic usage
+## Overview
 
 A duration token consists of a series of coefficient and unit pairs.
 
