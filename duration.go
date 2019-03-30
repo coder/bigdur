@@ -1,3 +1,4 @@
+// Package bigdur parses large durations.
 package bigdur
 
 import (

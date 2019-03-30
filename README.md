@@ -1,6 +1,6 @@
 # bigdur
 
-A small Go package for parsing larger duration units.
+A small Go package for parsing larger durations.
 
 [![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://godoc.org/go.coder.com/bigdur)
 
