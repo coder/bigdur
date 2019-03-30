@@ -1,4 +1,10 @@
 // Package bigdur parses large durations.
+// In addition to units supported by the standard library,
+//
+// it supports
+// 	- d for 24 hours
+//	- mo for 30 days
+//	- y for 12 months
 package bigdur
 
 import (
@@ -73,12 +79,12 @@ func Parse(str string) (Duration, error) {
 	return dur, nil
 }
 
-// Duration converts to a standard library time.Duration.
+// Duration converts into a standard library time.Duration.
 func (d Duration) Std() time.Duration {
 	return time.Duration(time.Second * time.Duration(d))
 }
 
-// String returns a human-readable representation of duration
+// String returns a human-readable representation of Duration.
 func (d Duration) String() string {
 	out := &bytes.Buffer{}
 
