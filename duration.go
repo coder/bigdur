@@ -1,10 +1,12 @@
 // Package bigdur parses large durations.
 // In addition to units supported by the standard library,
+// It supports:
 //
-// it supports
-// 	- d for 24 hours
-//	- mo for 30 days
-//	- y for 12 months
+// - d for 24 hours
+//
+// - mo for 30 days
+//
+// - y for 12 months
 package bigdur
 
 import (
