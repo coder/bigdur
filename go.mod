@@ -1,4 +1,4 @@
-module github.com/ammario/bigdur
+module go.coder.com/bigdur
 
 go 1.12
 
